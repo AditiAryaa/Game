@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+}
+.inside-container {
+  text-align: center;
+}
+.back-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 5px 9px;
+  border: none;
+  box-shadow: 0.5px 0.5px 6px black;
+  border-radius: 5px;
+}
+.image {
+  height: 200px;
+  width: 230px;
+  mix-blend-mode: multiply;
+}
+.heading {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 45px;
+}
+.para {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.btns {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 30px;
+}
+.btn {
+  padding: 13px 26px;
+  border: none;
+  box-shadow: 1px 1px 15px black;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.btn:hover {
+  color: pink;
+}
+
+/* ............................. */
+.btn1 {
+  position: absolute;
+}
+
+.btn-yes {
+  left: 43%;
+}
+
+/* ...........................Media query........................ */
+
+@media only screen and (max-width: 900px) {
+  .btn-yes {
+    left: 30%;
+  }
+}
